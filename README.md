@@ -155,7 +155,7 @@
 | Input Resolutions | Ref: 100×100, Search: 1000×1000 |
 
 ---
-
+## *Note* ##- Hyperparameters were changed during execution to meet the requirements of the model.
 ## Environment Requirements
 
 ### Runtime Environment
