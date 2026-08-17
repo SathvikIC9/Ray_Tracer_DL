@@ -1,9 +1,9 @@
-#**RAY TRACER**
+# RAY TRACER 
 
-# Tech Stack Analysis
-## 1. Image Generator (`kaggle_1.py`) - SEM Wafer Dataset Generator
+## Tech Stack Analysis
+### 1. Image Generator (`kaggle_1.py`) - SEM Wafer Dataset Generator
 
-### Core Libraries
+#### Core Libraries
 - **PyTorch** (`torch`) - GPU/CUDA support for tensor operations
   - Device management (CUDA/CPU detection)
   - Tensor operations for efficient image processing
