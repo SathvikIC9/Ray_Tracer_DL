@@ -190,6 +190,8 @@ ray-tracer-v3.ipynb (DL Training)
     ↓
     Load dataset from .zip
     ↓
+    Load Checkpoint.pt  (for revising the model with its values )
+    ↓
     Train/Val/Test split
     ↓
     Train WaferMatchNet (250 epochs max)
