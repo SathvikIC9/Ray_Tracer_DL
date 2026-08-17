@@ -214,3 +214,10 @@ ray-tracer-v3.ipynb (DL Training)
 | **Compute** | CPU-friendly (synthesis) | GPU-optimized (CUDA) |
 | **Data Format** | Wafer tiles with architecture variation | Reference-search image pairs |
 | **Loss/Metric** | N/A (generation) | L2 pixel error + cross-entropy heatmap loss |
+
+## Images 
+### Training and Validation Graphs- 
+<img width="1690" height="1300" alt="training_results" src="https://github.com/user-attachments/assets/9bbb5310-4867-48c3-b44d-ebcde5eff401" />
+
+### Test Case Output - 
+<img width="1479" height="511" alt="generated_image_cell10" src="https://github.com/user-attachments/assets/a8e5ff95-938f-42d5-9219-3d50e025353a" />
