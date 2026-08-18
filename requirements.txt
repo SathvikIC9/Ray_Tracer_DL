@@ -43,6 +43,24 @@ pytest==7.4.3
 black==23.12.1
 flake8==6.1.0
 
+# WaferMatchNet Requirements
+# Python >= 3.10
+
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerical & Data Processing
+numpy>=1.24.0
+
+# Image Processing & Visualization
+Pillow>=9.0.0
+matplotlib>=3.5.0
+
+# Interactive & Utility
+ipywidgets>=8.0.0
+tqdm>=4.65.0
+
 # CUDA Toolkit (if using GPU)
 # Note: Install separately if needed
 # cuda-toolkit>=12.1
