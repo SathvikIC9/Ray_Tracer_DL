@@ -16,14 +16,14 @@ wafer-match-net/
     └── result.json                # Saved coordinate results
 ```
 ### Execution process 
-
+```
 Create virtual environment-
 python -m venv venv
 
-# On Windows:
+On Windows:
 venv\Scripts\activate
 
-# On Linux/macOS:
+On Linux/macOS:
 source venv/bin/activate# Install dependencies
 
 bash 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 Run -
  python inference.py
-
+```
  ---
 ## Tech Stack Analysis
 ### 1. Image Generator (`kaggle_1.py`) - SEM Wafer Dataset Generator
