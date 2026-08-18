@@ -1,5 +1,4 @@
 # WaferMatchNet Dependencies
-# Generated: August 2024
 # Python 3.12.13
 
 # Core Deep Learning
