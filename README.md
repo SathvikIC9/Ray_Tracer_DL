@@ -6,10 +6,10 @@ wafer-match-net/
 ├── README.md                      # Setup & usage instructions
 ├── requirements.txt               # Python dependencies
 ├── inference.py                   # Production inference script (supports CLI & local path config)
-├── ray-tracer-v3.ipynb           # Training & evaluation notebook
+├── ray-tracer-v4.ipynb           # notebook(For DL Model weights and Model
 ├── kaggle_1.py                    # Synthetic dataset generator
 └── trial/                         # Local workspace directory (example)
-    ├── personal_best_checkpoint.pt# Model checkpoint file
+    ├── personal_best_checkpoint.pt # Model checkpoint file
     ├── reference.png              # Input reference image (100x100)
     ├── search.png                 # Input search image (1000x1000)
     ├── result_visualization.png   # Output prediction visualization
@@ -30,7 +30,22 @@ bash
 pip install -r requirements.txt
 
 Run -
- python inference.py
+# Basic single pair run
+python inference.py --ref reference.png --search search.png --checkpoint personal_best_checkpoint.pt
+
+# Output JSON and customized visualization path
+python inference.py \
+  --checkpoint personal_best_checkpoint.pt \
+  --ref reference.png \
+  --search search.png \
+  --visualize result_visualization.png \
+  --json result.json
+
+# Batch processing
+python inference.py \
+  --ref ref1.png ref2.png \
+  --search search1.png search2.png
+  
 ```
  ---
 ## Tech Stack Analysis
