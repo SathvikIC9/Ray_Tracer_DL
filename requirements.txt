@@ -1,0 +1,49 @@
+# WaferMatchNet Dependencies
+# Generated: August 2024
+# Python 3.12.13
+
+# Core Deep Learning
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+
+# Scientific Computing
+numpy==1.24.4
+scipy==1.13.0
+
+# Data Processing
+pandas==2.2.0
+scikit-learn==1.3.0
+
+# Image Processing
+Pillow==10.1.0
+imageio==2.33.1
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Jupyter & Interactivity
+jupyter==1.0.0
+ipython==8.18.1
+ipywidgets==8.1.1
+jupyterlab==4.0.9
+notebook==7.0.6
+
+# Utilities
+tqdm==4.67.0
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# Optional: For distributed training
+pytorch-lightning==2.1.2  # Optional
+
+# Development/Testing (optional)
+pytest==7.4.3
+black==23.12.1
+flake8==6.1.0
+
+# CUDA Toolkit (if using GPU)
+# Note: Install separately if needed
+# cuda-toolkit>=12.1
+# cudnn>=8.8.0
