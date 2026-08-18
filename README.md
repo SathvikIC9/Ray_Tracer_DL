@@ -1,5 +1,38 @@
 # RAY TRACER 
+---
+## Project Structure 
 
+wafer-match-net/
+├── README.md                      # Setup & usage instructions
+├── requirements.txt               # Python dependencies
+├── inference.py                   # Production inference script (supports CLI & local path config)
+├── ray-tracer-v3.ipynb           # Training & evaluation notebook
+├── kaggle_1.py                    # Synthetic dataset generator
+└── trial/                         # Local workspace directory (example)
+    ├── personal_best_checkpoint.pt# Model checkpoint file
+    ├── reference.png              # Input reference image (100x100)
+    ├── search.png                 # Input search image (1000x1000)
+    ├── result_visualization.png   # Output prediction visualization
+    └── result.json                # Saved coordinate results
+
+### Execution process 
+
+Create virtual environment-
+python -m venv venv
+
+# On Windows:
+venv\Scripts\activate
+
+# On Linux/macOS:
+source venv/bin/activate# Install dependencies
+
+bash 
+pip install -r requirements.txt
+
+Run -
+ python inference.py
+
+ ---
 ## Tech Stack Analysis
 ### 1. Image Generator (`kaggle_1.py`) - SEM Wafer Dataset Generator
 
